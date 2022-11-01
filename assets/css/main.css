@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: rgb(74, 74, 74);
+		color: white;
 		font-weight: 300;
 		font-size: 14px;
 	}
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: white;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1919,10 +1919,12 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			background-color: #282828;
 		}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
+				color: #10BEF1;
 			}
 
 		.box.style2 h3 {
@@ -1991,17 +1993,15 @@ input, select, textarea {
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
+		background-color: #242424;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #006599;
 		}
 
-		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
-		}
+
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
